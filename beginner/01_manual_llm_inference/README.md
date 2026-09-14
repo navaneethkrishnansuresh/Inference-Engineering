@@ -1,6 +1,6 @@
 # Chapter 1 — Manual LLM Inference From First Principles
 
-This chapter starts with a small pretrained model and manually walks through the basic inference loop instead of hiding it behind `model.generate()`.
+This chapter starts with a small pretrained model and manually walks through the basic inference loop.
 
 You will use a tokenizer and model from Hugging Face, then inspect prefill, decoding, logits, and the KV cache. A Google Colab runtime with a GPU is recommended; the notebook was written around an NVIDIA T4 and Qwen2.5-0.5B-Instruct.
 
