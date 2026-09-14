@@ -1,12 +1,31 @@
-# Inference Engineering From First Principles
+# Inference Engineering Zero to Hero
 
-Most tutorials show how to call `model.generate()`.
+This repository is a hands-on path into LLM inference engineering.
 
-This repository goes in the other direction. We start with a pretrained model and rebuild the pieces beneath generation: tokenization, prefill, the KV cache, decoding, sampling, request state, scheduling, batching, and eventually memory-management ideas used by real inference systems.
+The goal is to understand what actually happens when an LLM serves a request: how prompts are processed, how tokens are generated, how KV cache grows, how requests are scheduled, how batching works, where GPU memory goes, and why inference engines need all the systems around the model itself.
 
-The focus is on understanding the runtime, not model quality, so the early chapters use small models. The notebooks are designed to run in Google Colab; a T4 or A100 GPU is useful for the early experiments.
+We start from the smallest useful pieces and build upward:
 
-This is a learning project built in public while I progress. The roadmap is not fixed. More chapters and topics may be added as the project progresses and as new concepts become necessary.
+tokenization
+→ prefill
+→ decode
+→ KV cache
+→ sampling
+→ request state
+→ scheduling
+→ continuous batching
+→ memory management
+→ serving-engine internals
+
+The focus is not on training models or getting better model quality. It is on the runtime side of LLMs: latency, throughput, memory, scheduling, GPU utilization, and the systems that make serving efficient.
+
+Everything is implementation-first. We inspect tensors, cache state, memory usage and model outputs directly, then gradually turn those pieces into a small inference runtime.
+
+The course is split into Beginner, Intermediate and Advanced levels. Beginner is being built now. Intermediate and Advanced will be added as the project moves deeper into real inference-engine and GPU systems work.
+
+The roadmap is intentionally flexible. Topics may be added, split or reordered as new problems show up while building.
+
+
 
 ## Course Structure
 
