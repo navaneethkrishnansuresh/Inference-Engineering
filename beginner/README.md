@@ -27,6 +27,7 @@ The implementation here is simplified on purpose. Production engines such as vLL
 
 | Chapter | Topic | Status |
 | --- | --- | --- |
-| 01 | [Manual LLM Inference From First Principles](01_manual_llm_inference/) | Available |
+| 01 | [Manual LLM Inference From First Principles](01_manual_llm_inference/01_manual_llm_inference.ipynb) | Available |
+| 02 | [Sampling — build the sampler without `generate()`](02_sampling/02_sampling.ipynb) | Available |
 
-Future topics are tracked in the [main course roadmap](../README.md#1-beginner). They are plans, not completed chapters.
+Future topics are tracked in the [main roadmap](../README.md#1-beginner). They are plans, not completed chapters.

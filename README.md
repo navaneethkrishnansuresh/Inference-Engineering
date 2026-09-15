@@ -21,13 +21,13 @@ The focus is not on training models or getting better model quality. It is on th
 
 Everything is implementation-first. We inspect tensors, cache state, memory usage and model outputs directly, then gradually turn those pieces into a small inference runtime.
 
-The course is split into Beginner, Intermediate and Advanced levels. Beginner is being built now. Intermediate and Advanced will be added as the project moves deeper into real inference-engine and GPU systems work.
+The repository is split into Beginner, Intermediate and Advanced levels. Beginner is being built now. Intermediate and Advanced will be added as the project moves deeper into real inference-engine and GPU systems work.
 
 The roadmap is intentionally flexible. Topics may be added, split or reordered as new problems show up while building.
 
 
 
-## Course Structure
+## Learning Path
 
 ### 1. Beginner
 
@@ -37,8 +37,8 @@ The Beginner track builds the core mental model of what happens when an LLM gene
 
 | Chapter | Topic | Status |
 | --- | --- | --- |
-| 01 | [Manual LLM Inference From First Principles](beginner/01_manual_llm_inference/) | Available |
-| 02 | Sampling | Planned |
+| 01 | [Manual LLM Inference From First Principles](beginner/01_manual_llm_inference/01_manual_llm_inference.ipynb) | Available |
+| 02 | [Sampling — build the sampler without `generate()`](beginner/02_sampling/02_sampling.ipynb) | Available |
 | 03 | Request State | Planned |
 | 04 | Simple Scheduler | Planned |
 | 05 | Continuous Batching | Planned |
