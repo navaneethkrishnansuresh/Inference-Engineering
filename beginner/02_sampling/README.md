@@ -1,6 +1,6 @@
 # Chapter 2: Sampling
 
-Chapter 1 built manual autoregressive inference with greedy `argmax` selection. Here, we replace that choice with a sampling pipeline built directly from logits. Nothing is hidden behind `generate()`.
+Chapter 1 built manual autoregressive inference with greedy `argmax` selection. Here, we replace that choice with a sampling pipeline built directly from logits.
 
 Open the notebook: [02_sampling.ipynb](02_sampling.ipynb)
 

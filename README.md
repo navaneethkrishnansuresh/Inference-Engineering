@@ -40,7 +40,7 @@ The Beginner track builds the core mental model of what happens when an LLM gene
 | Chapter | Topic | Status |
 | --- | --- | --- |
 | 01 | [Manual LLM Inference From First Principles](beginner/01_manual_llm_inference/01_manual_llm_inference.ipynb) | Available |
-| 02 | [Sampling — build the sampler without `generate()`](beginner/02_sampling/02_sampling.ipynb) | Available |
+| 02 | [Sampling: Temperature, Top-k and Top-p](beginner/02_sampling/02_sampling.ipynb) | Available |
 | 03 | Request State | Planned |
 | 04 | Simple Scheduler | Planned |
 | 05 | Continuous Batching | Planned |

@@ -1,4 +1,4 @@
-# Chapter 1 — Manual LLM Inference From First Principles
+# Chapter 1: Manual LLM Inference From First Principles
 
 This chapter starts with a small pretrained model and manually walks through the basic inference loop.
 

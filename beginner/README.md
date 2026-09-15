@@ -28,6 +28,6 @@ The implementation here is simplified on purpose. Production engines such as vLL
 | Chapter | Topic | Status |
 | --- | --- | --- |
 | 01 | [Manual LLM Inference From First Principles](01_manual_llm_inference/01_manual_llm_inference.ipynb) | Available |
-| 02 | [Sampling — build the sampler without `generate()`](02_sampling/02_sampling.ipynb) | Available |
+| 02 | [Sampling: Temperature, Top-k and Top-p](02_sampling/02_sampling.ipynb) | Available |
 
 Future topics are tracked in the [main roadmap](../README.md#1-beginner). They are plans, not completed chapters.
