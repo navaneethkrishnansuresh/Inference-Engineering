@@ -25,6 +25,8 @@ The repository is split into Beginner, Intermediate and Advanced levels. Beginne
 
 The roadmap is intentionally flexible. Topics may be added, split or reordered as new problems show up while building.
 
+I will try to add a new chapter every one to two days as I progress.
+
 
 
 ## Learning Path
