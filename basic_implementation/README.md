@@ -1,4 +1,4 @@
-# Beginner
+# Basic Implementation
 
 The goal of this level is to build the core pieces of a small LLM serving runtime, rather than only learning how to call a high-level generation API.
 
@@ -31,4 +31,4 @@ The implementation here is simplified on purpose. Production engines such as vLL
 | 02 | [Sampling: Temperature, Top-k and Top-p](02_sampling/02_sampling.ipynb) | Available |
 | 03 | [Multi-Request State](03_multi_request_state/03_multi_request_state.ipynb) | Available |
 
-Future topics are listed in the [main README](../README.md#1-beginner). They are planned work, not completed parts.
+Future topics are listed in the [main README](../README.md#1-basic-implementation). They are planned work, not completed parts.

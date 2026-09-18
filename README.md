@@ -21,9 +21,17 @@ The focus is not on training models or getting better model quality. It is on th
 
 Everything is implementation-first. We inspect tensors, cache state, memory usage and model outputs directly, then gradually turn those pieces into a small inference runtime.
 
-The repository is split into Beginner, Intermediate and Advanced levels. Beginner contains the current work. Intermediate and Advanced will be added as the project moves deeper into real inference-engine and GPU systems work.
+## Disclaimer
 
-The list is intentionally flexible. Topics may be added, split, or reordered as the implementation grows.
+This is my personal implementation work around LLM inference. Take inspiration from it, use it to learn a few things, and adapt ideas for your own experiments.
+
+It is not a production serving system or a claim of a new state-of-the-art method.
+
+Please skip this for now if you do not have basic PyTorch, machine learning, and Transformer knowledge. If you are a larper who only wants to skim keywords, this repo is not for you. It is meant for people who want to read the code, run it, and understand what each part does.
+
+The repository is split into Basic Implementation, Intermediate Implementation, and Advanced Implementation. Basic Implementation contains the current work. The other sections will be added as the project moves deeper into real inference-engine and GPU systems work.
+
+Topics may be added, split, or reordered as the implementation grows.
 
 New parts will be added every one to two days when possible.
 
@@ -31,17 +39,17 @@ New parts will be added every one to two days when possible.
 
 ## What This Repository Builds
 
-### 1. Beginner
+### 1. Basic Implementation
 
 **Status:** Current work
 
-Beginner builds the core mental model of what happens when an LLM generates tokens.
+Basic Implementation builds the core mental model of what happens when an LLM generates tokens.
 
 | Part | Topic | Status |
 | --- | --- | --- |
-| 01 | [Manual LLM Inference From First Principles](beginner/01_manual_llm_inference/01_manual_llm_inference.ipynb) | Available |
-| 02 | [Sampling: Temperature, Top-k and Top-p](beginner/02_sampling/02_sampling.ipynb) | Available |
-| 03 | [Multi-Request State](beginner/03_multi_request_state/03_multi_request_state.ipynb) | Available |
+| 01 | [Manual LLM Inference From First Principles](basic_implementation/01_manual_llm_inference/01_manual_llm_inference.ipynb) | Available |
+| 02 | [Sampling: Temperature, Top-k and Top-p](basic_implementation/02_sampling/02_sampling.ipynb) | Available |
+| 03 | [Multi-Request State](basic_implementation/03_multi_request_state/03_multi_request_state.ipynb) | Available |
 | 04 | Simple Scheduler | Planned |
 | 05 | Continuous Batching | Planned |
 | 06 | KV Cache Management | Planned |
@@ -51,13 +59,13 @@ Beginner builds the core mental model of what happens when an LLM generates toke
 
 This list will change as the implementation gets deeper.
 
-### 2. Intermediate
+### 2. Intermediate Implementation
 
 **Status:** Not available yet
 
-Intermediate work begins after the Beginner runtime is complete and the project moves deeper into performance and real inference-engine internals.
+Intermediate work begins after the Basic Implementation runtime is complete and the project moves deeper into performance and real inference-engine internals.
 
-### 3. Advanced
+### 3. Advanced Implementation
 
 **Status:** Not available yet
 
@@ -65,4 +73,4 @@ Advanced work comes later with deeper GPU/runtime optimization and production in
 
 ## Begin Here
 
-Open [Part 1](beginner/01_manual_llm_inference/) and work through the notebook in order.
+Open [Part 1](basic_implementation/01_manual_llm_inference/) and work through the notebook in order.
