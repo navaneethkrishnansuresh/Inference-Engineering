@@ -2,4 +2,4 @@
 
 Not available yet.
 
-This level will come later as the project moves into deeper GPU/runtime optimization and production inference systems. The roadmap is intentionally not fixed.
+This level comes later with deeper GPU/runtime optimization and production inference systems. The list is intentionally flexible.

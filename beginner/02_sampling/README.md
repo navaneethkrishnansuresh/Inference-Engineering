@@ -1,10 +1,10 @@
-# Chapter 2: Sampling
+# Part 2: Sampling
 
-Chapter 1 built manual autoregressive inference with greedy `argmax` selection. Here, we replace that choice with a sampling pipeline built directly from logits.
+Part 1 built manual autoregressive inference with greedy `argmax` selection. Here, we replace that choice with a sampling pipeline built directly from logits.
 
 Open the notebook: [02_sampling.ipynb](02_sampling.ipynb)
 
-## What you'll learn
+## Inside this part
 
 - next-token logits and their tensor shapes
 - softmax, greedy `argmax`, and multinomial sampling
