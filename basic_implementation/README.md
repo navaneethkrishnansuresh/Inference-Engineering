@@ -30,5 +30,6 @@ The implementation here is simplified on purpose. Production engines such as vLL
 | 01 | [Manual LLM Inference From First Principles](01_manual_llm_inference/01_manual_llm_inference.ipynb) | Available |
 | 02 | [Sampling: Temperature, Top-k and Top-p](02_sampling/02_sampling.ipynb) | Available |
 | 03 | [Multi-Request State](03_multi_request_state/03_multi_request_state.ipynb) | Available |
+| 04 | [Simple Scheduler](04_simple_scheduler/04_simple_scheduler.ipynb) | Available |
 
 Future topics are listed in the [main README](../README.md#1-basic-implementation). They are planned work, not completed parts.
