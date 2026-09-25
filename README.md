@@ -51,7 +51,8 @@ Basic Implementation builds the core mental model of what happens when an LLM ge
 | 02 | [Sampling: Temperature, Top-k and Top-p](basic_implementation/02_sampling/02_sampling.ipynb) | Available |
 | 03 | [Multi-Request State](basic_implementation/03_multi_request_state/03_multi_request_state.ipynb) | Available |
 | 04 | [Simple Scheduler](basic_implementation/04_simple_scheduler/04_simple_scheduler.ipynb) | Available |
-| 05 | Continuous Batching | Planned |
+| 05A | [Continuous Batching Foundations](basic_implementation/05a_continuous_batching_foundations/05a_continuous_batching_foundations.ipynb) | Available |
+| 05B | [Dynamic Continuous Batching](basic_implementation/05b_dynamic_continuous_batching/) | Not available yet |
 | 06 | KV Cache Management | Planned |
 | 07 | Paged / Block KV Cache | Planned |
 | 08 | Prefix Caching | Planned |
