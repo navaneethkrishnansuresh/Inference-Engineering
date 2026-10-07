@@ -2,6 +2,8 @@
 
 This part turns the fixed batch from Part 5A into an active batch that can change while generation is running.
 
+Open the notebook: [05b_dynamic_continuous_batching.ipynb](05b_dynamic_continuous_batching.ipynb)
+
 ## Index
 
 1. **Batched Decode With KV Cache**
