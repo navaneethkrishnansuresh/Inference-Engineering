@@ -32,6 +32,6 @@ The implementation here is simplified on purpose. Production engines such as vLL
 | 03 | [Multi-Request State](03_multi_request_state/03_multi_request_state.ipynb) | Available |
 | 04 | [Simple Scheduler](04_simple_scheduler/04_simple_scheduler.ipynb) | Available |
 | 05A | [Continuous Batching Foundations](05a_continuous_batching_foundations/05a_continuous_batching_foundations.ipynb) | Available |
-| 05B | [Dynamic Continuous Batching](05b_dynamic_continuous_batching/) | Not available yet |
+| 05B | [Dynamic Continuous Batching](05b_dynamic_continuous_batching/05b_dynamic_continuous_batching.ipynb) | Available |
 
 Future topics are listed in the [main README](../README.md#1-basic-implementation). They are planned work, not completed parts.
