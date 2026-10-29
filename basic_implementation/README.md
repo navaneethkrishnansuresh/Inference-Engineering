@@ -33,5 +33,6 @@ The implementation here is simplified on purpose. Production engines such as vLL
 | 04 | [Simple Scheduler](04_simple_scheduler/04_simple_scheduler.ipynb) | Available |
 | 05A | [Continuous Batching Foundations](05a_continuous_batching_foundations/) | Available |
 | 05B | [Dynamic Continuous Batching](05b_dynamic_continuous_batching/) | Available |
+| 06 | [KV Cache Management](06_kv_cache_management/) | Available |
 
 Future topics are listed in the [main README](../README.md#1-basic-implementation). They are planned work, not completed parts.
