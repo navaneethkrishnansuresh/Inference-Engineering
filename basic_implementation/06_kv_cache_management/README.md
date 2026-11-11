@@ -23,6 +23,6 @@ Open the notebook: [06_kv_cache_management.ipynb](06_kv_cache_management.ipynb)
    - verify logical allocations against actual cache sequence lengths
    - reclaim KV capacity as requests finish and admit new work
 6. **Part 6 Conclusion**
-   - next: Part 7, paged KV cache allocation and PagedAttention
+   - next: Part 7A, paged KV cache block allocation and management
 
-The manager tracks logical cached-token capacity. It does not yet allocate physical GPU blocks or solve fragmentation. Those are the next problems.
+The manager tracks logical cached-token capacity. It does not yet allocate physical GPU blocks or solve fragmentation. Part 7A takes on physical block allocation and scheduling. Part 7B will add tensor-backed KV storage and PagedAttention.

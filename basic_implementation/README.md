@@ -18,6 +18,8 @@ prompt
   → scheduler
   → continuous batching
   → KV-cache management
+  → paged KV cache
+  → PagedAttention
   → benchmarking
 ```
 
@@ -34,5 +36,7 @@ The implementation here is simplified on purpose. Production engines such as vLL
 | 05A | [Continuous Batching Foundations](05a_continuous_batching_foundations/) | Available |
 | 05B | [Dynamic Continuous Batching](05b_dynamic_continuous_batching/) | Available |
 | 06 | [KV Cache Management](06_kv_cache_management/) | Available |
+| 07A | [Paged KV Cache: Block Allocation and Management](07a_paged_kv_cache_block_management/) | Available |
+| 07B | [PagedAttention, Physical KV Storage and Memory Analysis](07b_paged_attention_physical_kv_storage/) | Not available yet |
 
 Future topics are listed in the [main README](../README.md#1-basic-implementation). They are planned work, not completed parts.

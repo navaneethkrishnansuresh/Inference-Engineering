@@ -15,6 +15,7 @@ tokenization
 → scheduling
 → continuous batching
 → memory management
+→ paged KV cache
 → serving-engine internals
 
 The focus is not on training models or getting better model quality. It is on the runtime side of LLMs: latency, throughput, memory, scheduling, GPU utilization, and the systems that make serving efficient.
@@ -54,7 +55,8 @@ Basic Implementation builds the core mental model of what happens when an LLM ge
 | 05A | [Continuous Batching Foundations](basic_implementation/05a_continuous_batching_foundations/) | Available |
 | 05B | [Dynamic Continuous Batching](basic_implementation/05b_dynamic_continuous_batching/) | Available |
 | 06 | [KV Cache Management](basic_implementation/06_kv_cache_management/) | Available |
-| 07 | Paged / Block KV Cache | Planned |
+| 07A | [Paged KV Cache: Block Allocation and Management](basic_implementation/07a_paged_kv_cache_block_management/) | Available |
+| 07B | [PagedAttention, Physical KV Storage and Memory Analysis](basic_implementation/07b_paged_attention_physical_kv_storage/) | Not available yet |
 | 08 | Prefix Caching | Planned |
 | 09 | Benchmarking Inference | Planned |
 
